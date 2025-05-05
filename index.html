@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX'); // <-- Inserisci il tuo ID GA4 reale
+</script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assistenza PC - Nicolò Lucchetta</title>
+  <style>
+    :root {
+      --primary-color: #2c3e50;
+      --accent-color: #27ae60;
+      --bg-light: #f4f4f4;
+    }
+
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #fff;
+      color: #333;
+    }
+
+    header {
+      background: var(--primary-color);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    section {
+      padding: 1.5rem 1rem;
+      max-width: 640px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: var(--primary-color);
+      font-size: 1.5rem;
+      margin-top: 0;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    .services, .pricing {
+      background: var(--bg-light);
+      margin-top: 1.5rem;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+
+    .button, input[type="submit"] {
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding: 12px 16px;
+      background: var(--accent-color);
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 1rem;
+    }
+
+    input, textarea {
+      padding: 12px;
+      font-size: 1rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    label {
+      font-size: 0.95rem;
+    }
+
+    footer {
+      background: var(--primary-color);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+
+    @media (min-width: 600px) {
+      .button, input[type="submit"] {
+        width: auto;
+        display: inline-block;
+      }
+    }
+  
+    h1 {
+      color: white;
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+      color: white;
+        font-size: 1.5rem;
+      }
+    }
+
+    @media (max-width: 400px) {
+      h1 {
+      color: white;
+        font-size: 1.3rem;
+      }
+    }
+</style>
+</head>
+<body>
+
+  
+<header>
+  <h1>Assistenza PC - Nicolò Lucchetta</h1>
+  <p>Velocizzo, riparo e proteggo il tuo computer – anche da remoto!</p>
+</header>
+
+
+  <section>
+    <h2>Chi Sono</h2>
+    <p>Mi chiamo Nicolò Lucchetta, tecnico informatico con oltre 5 anni di esperienza. Offro assistenza professionale e rapida ai privati per ogni problema al PC, sia in loco che a distanza.</p>
+  </section>
+
+  <section class="services">
+    <h2>Servizi Offerti</h2>
+    <ul>
+      <li>Rimozione virus e malware</li>
+      <li>Velocizzazione PC lenti</li>
+      <li>Installazione e configurazione software</li>
+      <li>Formattazione e backup dati</li>
+    </ul>
+  </section>
+
+  <section class="pricing">
+    <h2>Prezzi</h2>
+    <p><strong>Pacchetto Base – 20€:</strong> Pulizia e ottimizzazione del sistema</p>
+    <p><strong>Pacchetto Sicurezza – 30€:</strong> Rimozione virus + installazione antivirus</p>
+    <p><strong>Pacchetto Completo – 50€:</strong> Formattazione, backup e reinstallazione software</p>
+  </section>
+
+  
+  <section>
+    <h2>Assistenza Remota</h2>
+    <p>Per ricevere assistenza da remoto, puoi scaricare AnyDesk gratuitamente cliccando sul pulsante qui sotto:</p>
+    <a class="button" href="https://anydesk.com/it/downloads/windows" target="_blank">Scarica AnyDesk</a>
+  </section>
+
+<section>
+    <h2>Contatti</h2>
+    <p>WhatsApp: <a href="https://wa.me/3346039835">+39 3346039835</a></p>
+    <p>Email: <a href="mailto:nicolo.lucchetta6@gmail.com">nicolo.lucchetta6@gmail.com</a></p>
+
+    <form action="https://formspree.io/f/xvgazkgz" method="POST">
+      <input type="text" name="name" placeholder="Il tuo nome" required>
+      <input type="email" name="email" placeholder="La tua email" required>
+      <textarea name="message" rows="5" placeholder="Scrivi il tuo messaggio" required></textarea>
+      
+    <div style="font-size: 0.95rem;"><input type="checkbox" id="privacy" required> Dichiaro di aver letto l’<a href="privacy.html" target="_blank">informativa sulla privacy</a> e acconsento al trattamento dei miei dati personali.</div>
+      <input type="submit" value="Invia messaggio">
+    </form>
+  </section>
+
+
+
+  <footer>
+    <p>&copy; 2025 Assistenza PC - Nicolò Lucchetta</p>
+    <p><a href="cookie.html" style="color:white;">Cookie Policy</a></p>
+  </footer>
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const form = document.querySelector("form");
+      const confirmationMessage = document.createElement("div");
+      confirmationMessage.textContent = "Grazie per avermi contattato! Riceverai una risposta al più presto.";
+      confirmationMessage.style.padding = "1rem";
+      confirmationMessage.style.backgroundColor = "#27ae60";
+      confirmationMessage.style.color = "white";
+      confirmationMessage.style.borderRadius = "5px";
+      confirmationMessage.style.textAlign = "center";
+      confirmationMessage.style.marginTop = "1rem";
+      confirmationMessage.style.display = "none";
+      form.parentElement.appendChild(confirmationMessage);
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const name = form.querySelector('input[name="name"]').value;
+        const email = form.querySelector('input[name="email"]').value;
+        const message = form.querySelector('textarea[name="message"]').value;
+        const privacyAccepted = document.getElementById("privacy").checked;
+
+        if (!name || !email || !message || !privacyAccepted) {
+          alert("Per favore, completa tutti i campi e accetta l'informativa sulla privacy.");
+          return;
+        }
+
+        fetch(form.action, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ name, email, message })
+        }).then(response => {
+          if (response.ok) {
+            confirmationMessage.style.display = "block";
+            form.reset();
+          } else {
+            alert("Errore nell'invio. Riprova più tardi.");
+          }
+        }).catch(() => {
+          alert("Errore di connessione. Riprova più tardi.");
+        });
+      });
+    });
+  </script>
+
+<!-- Cookie Consent Banner -->
+<style>
+#cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #2c3e50;
+  color: white;
+  padding: 1rem;
+  font-size: 0.95rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+#cookie-banner button {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+</style>
+<div id="cookie-banner">
+  <span>Questo sito utilizza cookie per migliorare l'esperienza utente. <a href="cookie.html" style="color:#1abc9c;">Leggi la Cookie Policy</a></span>
+  <button onclick="acceptCookies()">Accetta</button>
+</div>
+<script>
+function acceptCookies() {
+  document.getElementById('cookie-banner').style.display = 'none';
+  localStorage.setItem('cookiesAccepted', 'true');
+}
+if (localStorage.getItem('cookiesAccepted') === 'true') {
+  document.addEventListener("DOMContentLoaded", () => {
+    const banner = document.getElementById('cookie-banner');
+    if (banner) banner.style.display = 'none';
+  });
+}
+</script>
+
+</body>
+</html>
